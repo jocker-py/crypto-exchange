@@ -1,8 +1,7 @@
-import './styles/index.scss';
 
 function App() {
     return (
-        <>Init</>
+        <div>Init</div>
     )
 }
 
