@@ -1,8 +1,9 @@
+import './styles/index.scss';
 
 function App() {
-  return (
-    <>Init</>
-  )
+    return (
+        <>Init</>
+    )
 }
 
 export default App
