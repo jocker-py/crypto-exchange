@@ -1,0 +1,25 @@
+.container {
+  box-sizing: border-box;
+  max-width: 1000px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 220px 64px;
+
+  .title {
+    margin-bottom: 16px;
+  }
+
+  .subtitle {
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 64px 16px;
+
+    .title {
+      margin-bottom: 14px;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.option {
+  display: flex;
+  padding: 13px 16px;
+  width: inherit;
+  height: 48px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+
+  &:hover,
+  &.active {
+    background-color: var(--color-light-300);
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.image {
+  width: 20px;
+  height: 20px;
+  color: var(--color-info-200);
+  margin-right: 13px;
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: var(--font-weight-normal);
+}
+
+.subtitle {
+  color: var(--color-info-200);
+  font-weight: var(--font-weight-normal);
+  margin-left: 13px;
+}

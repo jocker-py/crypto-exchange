@@ -1,0 +1,42 @@
+.trigger {
+  position: absolute;
+  right: 0;
+  min-width: 150px;
+  display: inline-flex;
+  gap: 15px;
+  align-items: center;
+  height: 50px;
+  border: none;
+  background: transparent;
+  overflow: hidden;
+  border-radius: 5px;
+
+  &:before {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 30px;
+    background: var(--color-light-400);
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+
+  .image {
+    margin-left: auto;
+  }
+
+  .title {
+    text-transform: uppercase;
+    font-weight: var(--font-weight-normal);
+  }
+
+  .icon {
+    transition: all 0.3s ease;
+    margin-left: auto;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}
