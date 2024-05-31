@@ -23,7 +23,7 @@ export function getErrorMessage(value?: string): string {
       return "this pair is disabled now";
     case InvalidVariants.outOfMinAmount:
       return "Out of min amount";
-    case InvalidVariants.checkAmountField:
+    case InvalidVariants.depositTooSmall:
       return "Check amount field";
     default:
       return typeof value === "string" ? value : "Unknown error";
